@@ -317,7 +317,7 @@ app.put("/api/delivery/update/:address", async (req, res) => {
 });
 mongoose.set("strictQuery", false);
 mongoose
-  .connect("mongodb+srv://dappmaster:kollol@cluster0.actqmgr.mongodb.net/labhelp?retryWrites=true&w=majority")
+  .connect("mongodb+srv://edozanella:DEFdw7L9L2jlIu6U@database.2uvuebz.mongodb.net/Node-API?retryWrites=true&w=majority")
   .then(() => {
     console.log("connected to MongoDB");
     const PORT = process.env.PORT || 5000;
